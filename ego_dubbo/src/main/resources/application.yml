@@ -1,0 +1,24 @@
+
+
+
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/*
+dubbo:
+  registry:
+    address: zookeeper://192.168.9.128:2181
+  application:
+    name: ego_dubbo
+  provider:
+    host: 192.168.9.135
+server:
+  port: 9001
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.9.134:8066/ego
+    username: root
+    password: smallming

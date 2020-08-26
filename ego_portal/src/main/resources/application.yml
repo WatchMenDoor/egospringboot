@@ -1,0 +1,24 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  redis:
+    cluster:
+      nodes: 192.168.9.130:7001,192.168.9.130:7002,192.168.9.130:7003,192.168.9.130:7004,192.168.9.130:7005,192.168.9.130:7006
+
+server:
+  port: 8081
+
+bigad:
+  redis:
+    key: bigad
+  mysql:
+    id: 89
+
+dubbo:
+  registry:
+    address: zookeeper://192.168.9.128:2181
+  application:
+    name: ego_portal
+

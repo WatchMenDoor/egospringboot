@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ego_cart" />
+        <module name="ego_commons" />
+        <module name="ego_dubbo" />
+        <module name="ego_item" />
+        <module name="ego_manage" />
+        <module name="ego_mapper" />
+        <module name="ego_order" />
+        <module name="ego_passport" />
+        <module name="ego_pojo" />
+        <module name="ego_portal" />
+        <module name="ego_redis" />
+        <module name="ego_search" />
+        <module name="ego_service" />
+        <module name="egocommons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ego_cart" target="1.8" />
+      <module name="ego_cat" target="1.8" />
+      <module name="ego_commons" target="1.8" />
+      <module name="ego_demo1" target="1.8" />
+      <module name="ego_dubbo" target="1.8" />
+      <module name="ego_item" target="1.8" />
+      <module name="ego_manage" target="1.8" />
+      <module name="ego_mapper" target="1.8" />
+      <module name="ego_order" target="1.8" />
+      <module name="ego_parent" target="1.8" />
+      <module name="ego_passport" target="1.8" />
+      <module name="ego_pojo" target="1.8" />
+      <module name="ego_portal" target="1.8" />
+      <module name="ego_redis" target="1.8" />
+      <module name="ego_search" target="1.8" />
+      <module name="ego_service" target="1.8" />
+      <module name="egocommons" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ego_cart" options="-parameters" />
+      <module name="ego_cat" options="-parameters" />
+      <module name="ego_commons" options="-parameters" />
+      <module name="ego_dubbo" options="-parameters" />
+      <module name="ego_item" options="-parameters" />
+      <module name="ego_manage" options="-parameters" />
+      <module name="ego_mapper" options="-parameters" />
+      <module name="ego_order" options="-parameters" />
+      <module name="ego_passport" options="-parameters" />
+      <module name="ego_pojo" options="-parameters" />
+      <module name="ego_portal" options="-parameters" />
+      <module name="ego_redis" options="-parameters" />
+      <module name="ego_search" options="-parameters" />
+      <module name="ego_service" options="-parameters" />
+    </option>
+  </component>
+</project>
